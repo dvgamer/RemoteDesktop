@@ -1,19 +1,12 @@
-﻿using System;
+﻿using Managers;
+using Managers.LiveControl.Client;
+using Model.LiveControl;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
 using System.Drawing;
-using System.Drawing.Imaging;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using Managers;
-using Managers.LiveControl.Client;
-using Managers.Nova.Client;
-using Model.LiveControl;
-using Network.Messages.LiveControl;
 
 namespace Client.Forms
 {

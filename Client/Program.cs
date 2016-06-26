@@ -1,8 +1,7 @@
-﻿using System;
+﻿using Client.Forms;
+using System;
+using System.Diagnostics;
 using System.Windows.Forms;
-using Client.Forms;
-using Network;
-using Network.Messages;
 
 namespace Client
 {
@@ -16,6 +15,7 @@ namespace Client
         {
             try
             {
+
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new FormConnect());

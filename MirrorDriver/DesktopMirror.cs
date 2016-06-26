@@ -12,6 +12,7 @@ namespace MirrorDriver
 {
     public class DesktopMirror : IDisposable
     {
+
         #region External Constants
 
         private const int Map = 1030;
@@ -158,6 +159,8 @@ namespace MirrorDriver
 
         public bool Load()
         {
+
+
             if (State != MirrorState.Idle)
                 throw new InvalidOperationException("You may call Load only if the state is Idle");
 
